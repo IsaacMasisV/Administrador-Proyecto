@@ -1,5 +1,5 @@
 
-document.getElementById("btn_IniciarSesion").addEventListener("click",IniciarSesion);
+
 
 document.getElementById("btn_Registrarse").addEventListener("click",register);
 
@@ -21,7 +21,6 @@ const Registrojs = document.querySelector('#Registrojs')
 Registrojs.addEventListener('submit', (e) =>{
     e.preventDefault()
 
-    const NombreC = document.querySelector('#NombreC').value;
     const CorreoE = document.querySelector('#CorreoE').value;
     const Usuario1 = document.querySelector('#Usuario1').value;
     const Contraseña1 = document.querySelector('#Contraseña1').value;
@@ -40,7 +39,3 @@ Registrojs.addEventListener('submit', (e) =>{
     alert('Se registro el usuario con exito');
     window.location.href =='Loginjs';
 });
-
-
-
-
